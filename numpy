@@ -49,3 +49,8 @@ np.random.choice(b,(3,2))
  # 在数组中重复抽取数据 
 np.random.choice(b,(3,2),replace=False)
  #不重复抽取 
+
+# u=np.random.uniform(0,10,(3,4))
+# np.mean(a,axis=1) np.mean(a,axis=0)
+  #axis 有且仅可以为0 和 1  1代表仅在行向量内部进行计算 第二维度， 0代表在各个行向量互相进行计算非向量内部 
+
