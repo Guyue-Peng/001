@@ -1,0 +1,8 @@
+
+from PIL import Image
+import numpy as np
+ a=np.array(Image.open("C:/Users/pengg/Desktop/1.jpg"))))
+print(a.shape,a.dtype) # out (3024, 4032, 3) uint8
+b=[255,255,255]-a
+im = Image.fromarray(b.astype('uint8'))
+im.save("C:/Users/pengg/Desktop/2.jpg")
