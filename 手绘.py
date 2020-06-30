@@ -1,3 +1,5 @@
+#pip install pillow
+
 from PIL import Image
 import numpy as np
 a=np.asarray(Image.open("C:/Users/pengg/Desktop/photo.jpg").convert('L')).astype('float')
